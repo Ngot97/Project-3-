@@ -1,9 +1,9 @@
 # Project-3-
 
-Project Proposal
-Dataset:
+# Project Proposal
+# Dataset:
 Book recommendation: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
-Aim: To make book recommendations based on
+# Aim: To make book recommendations based on
 Books:
 Top 5 publishers
 What year has most publications?
@@ -19,8 +19,8 @@ Transform – split location (users), take out null value
 Load
 Choice of database: SQL – relational datasets
 ERD – pending
-Suggestions:
+# Suggestions:
 Create db in pgadmin
 Use a python library to connect python to postgres
 Read raw file in JPN, clean, transform etc
-Library: psycopg2, airflow, dask
+# Library: psycopg2, airflow, dask
