@@ -8,7 +8,7 @@ Linh Doan
 
 # Project Proposal
 ## Dataset:
-Book recommendation: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
+Book recommendations: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
 ## Project Overview:
 The project falls under the Data Engineering Track and aims to leverage online datasets to design a database through Extract, Transform, Load (ETL) processes and load the data into a SQL database to fulfill analytics requirements. By structuring the data in an organized and clean manner, users can execute queries to obtain book recommendations. 
  
