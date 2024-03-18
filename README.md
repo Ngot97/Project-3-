@@ -18,6 +18,8 @@ Python was employed for the ETL process, followed by the use of psycopg2, a Post
 ETL process: cleaning_data.ipynb  
 Psycopg2 adaptation: psycopg2_creatingSQLtables.ipynb  
 
+A separate .py file was used to store the password information.   
+
 When importing the cleaned csv data into the SQL databases, the import order should be Books, Users, then finally Ratings. As Ratings has foreign keys that are dependent on Books and Users, Ratings needs to be imported last.  
 
 ## Ethical considerations
