@@ -15,8 +15,8 @@ The project falls under the Data Engineering Track and aims to leverage online d
 ## Instructions for Usage
 Python was employed for the ETL process, followed by the use of psycopg2, a PostgreSQL adapter, to establish a connection with the SQL database for table creation and data import. A key challenge faced during the project involved importing CSV files, particularly issues with quotation marks. While importing data via psycopg, errors were encountered, whereas no such issues arose when importing directly into pgAdmin. To improve future iterations, it's suggested that contributors investigate and resolve this issue for smoother data import processes.  
 
-ETL process: 
-Psycopg2 adaptation: 
+ETL process:  
+Psycopg2 adaptation:  
 
 When importing the cleaned csv data into the SQL databases, the import order should be Books, Users, then finally Ratings. As Ratings has foreign keys that are dependent on Books and Users, Ratings needs to be imported last.  
 
