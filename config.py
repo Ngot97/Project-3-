@@ -1,4 +1,4 @@
 database_params = {'user' : 'postgres',
-                   'password' : 'Sindar75',
+                   'password' : 'password',
                    'host' : 'localhost',
                    'port' : '5432'}
